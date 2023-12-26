@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>mmm</title>
+    <style>
+        h2 {
+            text-align: center;
+            background-color: wheat;
+            margin-top: 0px;
+        }
+
+        label {
+            color: blue;
+            display: inline-block;
+            min-width: 80px;
+            padding-bottom: 10px;
+        }
+
+        table {
+            margin-left: 79px;
+            margin-top: -30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="border: 10px solid skyblue;">
+        <h2>SỞ THÍCH CỦA BẠN</h2>
+        <form action="#" method="post">
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" name="fullname" id="fullname" required><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <p style="color: blue;">Sở thích:</p>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="Thể thao" id="Thể thao">Thể thao</td>
+                    <td><input type="checkbox">Âm nhạc</td>
+                    <td><input type="checkbox">Đọc sách</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Lướt Web</td>
+                    <td><input type="checkbox">Chơi game</td>
+                    <td><input type="checkbox">Đọc sách</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Du lịch</td>
+                </tr>
+            </table>
+            <input type="submit" value="Gửi thông tin">
+            <input type="submit" value="Nhập lại">
+        </form>
+    </div>
+
+</body>
+
+</html>
